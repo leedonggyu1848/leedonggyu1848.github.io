@@ -7,7 +7,6 @@ You can generate these yourself, but this git repository has already generated t
 
 
 build
------
 
 These css files were generated using pygmentize on the command line like so::
 
