@@ -4,4 +4,4 @@
 	branch = source
 [submodule "themes/Book"]
 	path = themes/Book
-	url = https://github.com/minyeamer/hugo-book-custom
+	url = https://github.com/alex-shpak/hugo-book
