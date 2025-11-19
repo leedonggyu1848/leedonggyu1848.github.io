@@ -55,7 +55,7 @@ if [[ "$FILENAME" != *.md ]]; then
 fi
 
 # 6. Hugo 명령어 실행
-hugo new "$CATEGORY/$FILENAME"
+hugo new "posts/$CATEGORY/$FILENAME"
 
 # 7. 결과 메시지
 if [ $? -eq 0 ]; then
