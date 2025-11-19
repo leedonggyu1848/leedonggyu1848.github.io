@@ -54,15 +54,15 @@ if [[ "$FILENAME" != *.md ]]; then
     FILENAME="${FILENAME}.md"
 fi
 
-mkdir -p "content/posts/$CATEGORY"
+mkdir -p "content/$CATEGORY"
 
 # 6. Hugo 명령어 실행
-hugo new "posts/$CATEGORY/$FILENAME"
+hugo new "$CATEGORY/$FILENAME"
 
 # 7. 결과 메시지
 if [ $? -eq 0 ]; then
     echo "----------------------------------------"
     echo "✅ 생성 완료!"
-    echo "📂 위치: content/posts/$CATEGORY/$FILENAME"
+    echo "📂 위치: content/$CATEGORY/$FILENAME"
     echo "----------------------------------------"
 fi

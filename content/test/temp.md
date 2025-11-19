@@ -1,9 +1,9 @@
 +++
-date = '2025-11-19T18:52:36+09:00'
-title = 'Test Highlighting'
+date = '2025-11-19T19:04:28+09:00'
+title = 'Temp'
 author = "leedonggyu1848"
 tags = []
-categories = ["Posts"]
+categories = ["Test"]
 description = "여기에 글 요약을 적으세요."
 +++
 
