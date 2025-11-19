@@ -6,7 +6,14 @@
     <description>Recent content in Tests on Dong&#39;s Blog</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>ko</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Wed, 19 Nov 2025 19:04:28 +0900</lastBuildDate>
     <atom:link href="https://leedonggyu1848.github.io/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Temp</title>
+      <link>https://leedonggyu1848.github.io/test/temp/</link>
+      <pubDate>Wed, 19 Nov 2025 19:04:28 +0900</pubDate>
+      <guid>https://leedonggyu1848.github.io/test/temp/</guid>
+      <description>여기에 글 요약을 적으세요.</description>
+    </item>
   </channel>
 </rss>
