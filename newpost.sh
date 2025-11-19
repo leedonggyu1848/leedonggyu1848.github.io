@@ -54,6 +54,8 @@ if [[ "$FILENAME" != *.md ]]; then
     FILENAME="${FILENAME}.md"
 fi
 
+mkdir -p "content/posts/$CATEGORY"
+
 # 6. Hugo 명령어 실행
 hugo new "posts/$CATEGORY/$FILENAME"
 

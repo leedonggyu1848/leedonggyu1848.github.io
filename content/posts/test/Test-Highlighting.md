@@ -1,11 +1,10 @@
 +++
-date = '2025-11-19T17:36:48+09:00'
-draft = true
+date = '2025-11-19T18:52:36+09:00'
 title = 'Test Highlighting'
 author = "leedonggyu1848"
 tags = []
-categories = ["Test"]
-description = "Test highlignting for code"
+categories = ["Posts"]
+description = "여기에 글 요약을 적으세요."
 +++
 
 이 포스트는 Hugo의 `markup.highlight` 설정이 올바르게 적용되었는지 확인하기 위한 테스트 페이지입니다.
