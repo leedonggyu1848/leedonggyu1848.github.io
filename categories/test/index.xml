@@ -9,10 +9,10 @@
     <lastBuildDate>Wed, 19 Nov 2025 17:36:48 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/test/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test Category</title>
-      <link>http://localhost:1313/test/test-category/</link>
+      <title>Test Highlighting</title>
+      <link>http://localhost:1313/posts/test/test-category/</link>
       <pubDate>Wed, 19 Nov 2025 17:36:48 +0900</pubDate>
-      <guid>http://localhost:1313/test/test-category/</guid>
+      <guid>http://localhost:1313/posts/test/test-category/</guid>
       <description>Test highlignting for code</description>
     </item>
   </channel>
