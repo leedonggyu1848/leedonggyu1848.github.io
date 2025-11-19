@@ -1,0 +1,128 @@
+baseURL: "https://leedonggyu1848.github.io/"
+title: "Dong's Blog"
+defaultContentLanguage: "ko"
+languageCode: "ko"
+pagination:
+  pagerSize: 5
+theme: papermod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: Dong's Blog
+  description: "Welcome to Dong's Blog."
+  keywords: [Blog]
+  author: "leedonggyu1848"
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowToc: true
+  TocOpen: true
+  TocSidebar: true
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShareButtons: ["x", "linkedin", "telegram"]
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    # favicon: "<link / abs url>"
+    # favicon16x16: "<link / abs url>"
+    # favicon32x32: "<link / abs url>"
+    # apple_touch_icon: "<link / abs url>"
+    # safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "Home"
+    # icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Dong's Blog"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/leedonggyu1848/"
+
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc"
+  #   bing:
+  #     SiteVerificationTag: "XYZabc"
+  #   yandex:
+  #     SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  editPost:
+    URL: "https://github.com/leedonggyu1848/leedonggyu1848.github.io/tree/main/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  tableOfContents:
+    startLevel: 1
+    endLevel: 3
+    ordered: false
+  highlight:
+    codeFences: true         # ``` 마크다운 문법 사용
+    guessSyntax: true        # 언어 미지정 시 자동으로 언어 추측
+    lineNoStart: 1           # 줄 번호 1부터 시작
+    lineNos: true            # 코드 줄 번호 표시 (개발 블로그 추천)
+    lineNumbersInTable: true # 복사 시 줄 번호는 제외하고 코드만 복사되도록 처리
+    noClasses: true         # PaperMod의 다크/라이트 모드 테마를 따르기 위해 false 필수
+    style: monokai           # noClasses가 false일 때를 위한 예비 스타일
+    tabWidth: 4              # 탭 크기 4칸
+    wrapperClass: highlight  # 래퍼 클래스 이름 (기본값 유지)
