@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Test on Dong&#39;s Blog</title>
+    <link>http://localhost:1313/categories/test/</link>
+    <description>Recent content in Test on Dong&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>ko</language>
+    <lastBuildDate>Wed, 19 Nov 2025 17:36:48 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test Category</title>
+      <link>http://localhost:1313/test/test-category/</link>
+      <pubDate>Wed, 19 Nov 2025 17:36:48 +0900</pubDate>
+      <guid>http://localhost:1313/test/test-category/</guid>
+      <description>Test highlignting for code</description>
+    </item>
+  </channel>
+</rss>
