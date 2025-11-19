@@ -7,7 +7,7 @@ git submodule update --remote
  
 # 프로젝트 빌드
 # `hugo -t <테마명>`
-hugo -t LoveIt
+hugo -t papermod
  
 # `source` 브랜치로 이동
 cd public
