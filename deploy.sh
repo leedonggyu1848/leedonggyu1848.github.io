@@ -20,7 +20,7 @@ if [ $# -eq 1 ]
   then msg="$1"
 fi
 git commit -m "$msg"
-git push origin source
+git push -u origin source
  
 # 현재까지의 변경사항을 `main` 브랜치에 반영
 echo -e "\033[0;32mUpdating the main branch\033[0m"
