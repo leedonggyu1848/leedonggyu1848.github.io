@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# 인자가 없을 경우 현재 시간을 커밋 메시지로 등록
+msg="rebuild: $(date +"%Y-%m-%dT%H:%M:%S%z")"
+
 echo -e "\033[0;32mDeploying updates to GitHub\033[0m"
  
 # 모든 서브모듈의 변경사항을 업데이트
@@ -15,8 +19,6 @@ hugo -t papermod
 echo -e "\033[0;32mUpdating the branch with build files\033[0m"
 cd public
 git add .
-# 인자가 없을 경우 현재 시간을 커밋 메시지로 등록
-msg="rebuild: $(date +"%Y-%m-%dT%H:%M:%S%z")"
 if [ $# -eq 1 ]
   then msg="$1"
 fi
