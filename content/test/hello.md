@@ -1,5 +1,4 @@
 +++
-draft = true
 date = '2025-11-24T00:28:12+09:00'
 title = 'Hello'
 author = "leedonggyu1848"
