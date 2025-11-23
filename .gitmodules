@@ -2,3 +2,6 @@
 	path = public
 	url = https://github.com/leedonggyu1848/leedonggyu1848.github.io
 	branch = source
+[submodule "themes/papermod"]
+	path = themes/papermod
+	url = git@github.com:leedonggyu1848/hugo-PaperMod.git
