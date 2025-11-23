@@ -3,6 +3,7 @@ echo -e "\033[0;32mDeploying updates to GitHub\033[0m"
  
 # 모든 서브모듈의 변경사항을 업데이트
 echo -e "\033[0;32mUpdating all submodules\033[0m"
+git submodule sync
 git submodule update --remote --init
  
 # 프로젝트 빌드
