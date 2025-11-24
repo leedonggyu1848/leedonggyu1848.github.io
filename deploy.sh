@@ -13,7 +13,7 @@ git submodule update --remote --init
 # 프로젝트 빌드
 # `hugo -t <테마명>`
 echo -e "\033[0;32mBuilding the hugo project\033[0m"
-hugo -t papermod
+hugo -t PaperMod
  
 # `source` 브랜치로 이동
 echo -e "\033[0;32mUpdating the branch with build files\033[0m"
