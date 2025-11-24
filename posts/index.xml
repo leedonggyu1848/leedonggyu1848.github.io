@@ -6,13 +6,34 @@
     <description>Recent content in Posts on Dong&#39;s Blog</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>ko</language>
-    <lastBuildDate>Wed, 19 Nov 2025 18:52:36 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 24 Nov 2025 18:11:57 +0900</lastBuildDate>
     <atom:link href="https://leedonggyu1848.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test Highlighting</title>
-      <link>https://leedonggyu1848.github.io/posts/test/test-highlighting/</link>
-      <pubDate>Wed, 19 Nov 2025 18:52:36 +0900</pubDate>
-      <guid>https://leedonggyu1848.github.io/posts/test/test-highlighting/</guid>
+      <title>Hello</title>
+      <link>https://leedonggyu1848.github.io/posts/test2/hello/</link>
+      <pubDate>Mon, 24 Nov 2025 18:11:57 +0900</pubDate>
+      <guid>https://leedonggyu1848.github.io/posts/test2/hello/</guid>
+      <description>여기에 글 요약을 적으세요.</description>
+    </item>
+    <item>
+      <title>Helloworld</title>
+      <link>https://leedonggyu1848.github.io/posts/test2/helloworld/</link>
+      <pubDate>Mon, 24 Nov 2025 18:11:55 +0900</pubDate>
+      <guid>https://leedonggyu1848.github.io/posts/test2/helloworld/</guid>
+      <description>여기에 글 요약을 적으세요.</description>
+    </item>
+    <item>
+      <title>Helloworld</title>
+      <link>https://leedonggyu1848.github.io/posts/test1/helloworld/</link>
+      <pubDate>Mon, 24 Nov 2025 18:11:50 +0900</pubDate>
+      <guid>https://leedonggyu1848.github.io/posts/test1/helloworld/</guid>
+      <description>여기에 글 요약을 적으세요.</description>
+    </item>
+    <item>
+      <title>Hello</title>
+      <link>https://leedonggyu1848.github.io/posts/test1/hello/</link>
+      <pubDate>Mon, 24 Nov 2025 18:11:48 +0900</pubDate>
+      <guid>https://leedonggyu1848.github.io/posts/test1/hello/</guid>
       <description>여기에 글 요약을 적으세요.</description>
     </item>
   </channel>
